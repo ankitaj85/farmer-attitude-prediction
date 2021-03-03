@@ -1,6 +1,6 @@
 FROM tensorflow/tensorflow:2.2.0-gpu
 ARG DEBIAN_FRONTEND=noninteractive
-# Install apt dependencie
+# Install apt dependencies
 RUN apt-get update && apt-get install -y \
     git \
     gpg-agent \
